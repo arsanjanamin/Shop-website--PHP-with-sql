@@ -1,0 +1,474 @@
+
+
+@font-face{
+font-family: "Nazanin";
+src: 
+    url('../fonts/Nazanin.eot?') format('eot'),
+    url('../fonts/Nazanin.woff') format('woff'),
+    url('../fonts/Nazanin.ttf') format('truetype');
+}
+
+@font-face{
+font-family: "Yekan";
+src: 
+    url('../fonts/Yekan.eot?') format('eot'),
+    url('../fonts/Yekan.woff') format('woff'),
+    url('../fonts/Yekan.ttf') format('truetype');
+}
+
+
+body {
+	margin: 0;
+	padding: 0;
+	line-height: 1.5em;
+	font-family: "Yekan", Arial, san-serif,"Nazanin";
+	font-size: 11px;
+	color: #381523;
+	background: #fff;
+}
+
+a:link, a:visited { font-size: 14px;  text-decoration: none; }
+a:active, a:hover { color: #ff5a5d; text-decoration:none; }
+
+h1 {
+	margin: 1px;
+	padding: 10px 0 20px 0;
+	font-size: 24px;
+	color: #000000;
+	font-weight: normal;
+}
+
+
+h2 {
+	float: right;
+	box-shadow: 4px 2px #000;
+	overflow: hidden;
+	border-radius: 5px 7px;
+	width: 100%;
+	margin: 4px 4px 5px 3px;
+	padding: 8px 5px 5px 5px;
+	font-size: 15px;
+	color: #ffffff;
+	font-weight: normal;
+	background-color: #440522;
+}
+
+h3 {
+	text-align: right;
+	width: 140px;
+	height: 40px;
+	margin: 0 0 6px 0;
+	padding: 1px 10px 1px 4px;
+	font-size: 13px;
+	color: #ffffff;
+	font-weight: normal;
+	background-color: #be457c;
+	overflow: hidden;
+}
+h4 {
+	margin: 0;
+	padding: 5px 0 5px 15px;
+	font-size: 19px;
+	color: #404040;
+	font-weight: normal;
+	background-color: #AEA8D3;
+	text-align: right!important;
+}
+
+p {
+	margin: 1px;
+	padding: 0 0 10px 0;
+	text-align: justify;
+}
+
+.price{
+	font-size:16px;
+	margin-bottom: 10px;
+}
+
+.cleaner {
+	clear: both;
+	width: 100%;
+	height: 1px;
+	font-size: 1px;	
+}
+
+.cleaner_with_height {
+	clear: both;
+	width: 100%;
+	height: 30px;
+	font-size: 1px;	
+}
+
+#templatemo_container{
+	width: 940px;
+	margin: 0 auto;
+	border: 10px solid #f2d9ef;}
+
+/* top panel */
+#templatemo_top_panel {
+	overflow: hidden;	
+	width: 100%;
+	height: 55px;
+	padding: 5px 8px 5px 5px;
+	background: #F078AA;
+	border-bottom: 1px solid #870843;
+}
+
+#templatemo_top_panel #templatemo_language_section {
+	float: left;
+	width: 400px;
+	margin: 4px 0 0 50px;
+}
+
+#templatemo_top_panel #templatemo_language_section a {
+	margin-right: 5px;
+}
+
+#templatemo_top_panel #templatemo_language_section a  >i
+ {
+	font-size:29px;
+	color: #0e0308;
+	background: rgba(250, 113, 163, 0.63);
+	padding: 4px 4px 4px 4px;
+
+}
+
+#templatemo_top_panel #templatemo_language_section a:hover >i{
+	transition: 0.5s ease-in-out;
+	transform: translateY(-5%);
+	color: #e3d6da!important;
+	font-size:31px;
+	border-radius: 4px 4px;
+
+
+
+}
+
+#templatemo_top_panel #templatemo_shopping_cart {
+	float: right;
+	width: 400px;
+	padding-top: 10px;
+	text-align: right;
+	font-size: 14px;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+#templatemo_top_panel #templatemo_shopping_cart span{
+	font-weight: normal;
+	margin-bottom: 5px;
+	padding-top: 5px;
+}
+/* end of top panel */
+
+/* header panel */
+#templatemo_container #templatemo_header {
+	overflow: hidden;	
+	width: 880px;
+	height: 85px;
+	padding: 15px 30px;
+	background: #F4F5F6!important;
+
+	/*
+	background: #ebbce5 url(../images/templatemo_header_bg.jpg) bottom right no-repeat;
+	*/
+}
+/* end of header panel */
+
+/* header panel */
+#templatemo_container #templatemo_banner {
+	overflow: hidden;	
+	width: 880px;
+	height: 188px; /* + 60 for padding top and bottom */
+	padding: 30px 30px;
+	background: #F4F5F6 !important;
+	/*
+	background: #ffffff url(../images/templatemo_banner_bg.jpg) top right no-repeat;
+	*/
+}
+/* end of header panel */
+
+/* menu */
+#templatemo_menu_panel{
+	overflow: hidden;	
+	width: 880px;
+	height: 40px;
+	padding: 0 30px;
+	background: #440522;
+}
+
+#templatemo_menu_panel ul {
+	float: right;
+	width: 930px;
+	margin: 0;
+	padding: 5px 0 0 0;
+	list-style: none;
+}
+
+#templatemo_menu_panel ul li{
+	display: inline;
+}
+
+
+#templatemo_menu_panel ul li a{
+	float: right;
+	width: 110px;
+	padding: 5px 7px;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: right;
+	text-decoration: none;
+	color: #fff6f4;
+	border-left: 1px solid #5f3b11;
+}
+
+
+#templatemo_menu_panel li a:hover
+	/*,#templatemo_menu_panel li .current*/
+{
+	: ;
+	color: #ff8a82;
+	transition: 0.6s ease-in all;
+	padding-bottom: 6px;
+	transform:translateY(-30%);
+	cursor: pointer;
+}
+/* end of menu */
+
+/* content */
+#templatemo_content{
+	padding: 30px 30px 0 30px;
+	background: #F4F5F6;
+}
+
+#templatemo_content #templatemo_content_left {
+	float: left;
+	width: 630px;
+	text-align: center;
+}
+#templatemo_content_left .product_box {
+	float: right;
+	width: 170px;
+	height: 170px;
+	margin: 30px 15px 80px 15px;
+	padding-top: 8px;
+}
+#templatemo_content_left .product_box h3 {
+
+}
+#templatemo_content_left .product_box img{
+	margin-bottom: 10px;
+}
+.price span{
+	font-size:14px;
+	color: #381523;
+}
+.buynow a{
+	float: right;
+	width: 83px;
+	padding: 1px 1px;
+	margin: 0px 2px 0px 3px;
+	text-align: center;
+	font-weight: normal;
+	font-size: 12px;
+	text-decoration: none;
+	color: #ffffff;
+	background: #be457c;
+	border-bottom: 0.1cm solid #fd8dbe;
+	border-radius: 5px 5px;
+}
+
+
+#templatemo_content #templatemo_content_right {
+	float: right;
+	width: 220px;
+}
+
+.templatemo_right_section {
+	float: right;
+	direction: rtl;
+ 	width: 210px;
+	border: 5px solid #f8c7f2;
+	background: #ebbce5;
+	margin-bottom: 20px;
+	height: 322px;
+}
+
+.templatemo_right_section_content{
+ 	width: 180px;
+	padding: 5px;
+	height: 300px;
+} 
+.templatemo_right_section_content h3{
+
+}
+
+.templatemo_right_section_content form{
+	padding: 0;
+	margin: 0;
+} 
+
+.templatemo_right_section_content input{
+	margin-bottom: 15px;
+}
+
+.templatemo_right_section_content .button{
+	width: 70px;
+
+}
+
+.templatemo_right_section_content ul{
+	list-style: none;
+
+	text-align: right;
+}
+
+.templatemo_right_section_content li {
+	margin-bottom: 3px;
+	text-align: right;
+
+}
+
+.templatemo_right_section_content li a{
+	color: #be457c;
+	padding: 0 10px;
+	text-decoration: none;	
+}
+
+.templatemo_right_section_content li a:hover{
+	color: #440522;
+	text-decoration: none;
+	background: #be457c;
+}
+/* end of content */
+
+/*  footer */
+
+#templatemo_footer_panel{
+	overflow: hidden;
+	width: 900px;
+	padding: 15px 20px;
+	background:#AEA8D3;
+}
+
+#templatemo_footer_panel img{
+	margin: 0 5px 0 0;
+}
+
+#templatemo_footer_panel #footer_left {
+	float: left;
+	width: 340px;
+	padding: 0 25px 0 0;
+	margin: 0 15px 0 0;	
+	border-right: 1px solid #4c4c4c;
+
+}
+
+#templatemo_footer_panel #footer_right {
+	float: right;
+	width: 485px;
+	text-align: left;
+}
+/* end of footer */
+
+
+.h3_details {
+	text-align: center;
+}
+.price {
+	font-size: 16px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.facebook-icon
+{
+	font-size:34px;
+	color:#82c5f1;
+}
+
+.jadvale_cart_head
+{
+	background-color: #EBBCE5;
+	padding: 15px 1px;
+	font-size:22px;
+	color:#000;
+	border-radius:8px 8px 0 0;
+	text-align: center;
+}
+.message_session1
+{
+	border-radius:9px 9px;background-color:rgba(220,95,76,0.43);
+	font-size: 32px;color: rgb(60,213,133);
+}
+
+.btn_search
+{
+	height:33px!important;
+	width:66px!important;
+
+}
+
+
+/* ERROR PAGE */
+.error{
+	background: red;
+	padding: 10px;
+	font-size: 20px;
+	border-radius: 5px;
+	border: 5px dashed white;
+        
+        
+      }
+      .error >p
+      {
+        color:#fff;
+        text-align: right;
+        line-stacking: max-height;
+        padding-bottom: 5px;
+        }
+      
+          /* massege for password  */
+.tooltip
+{
+    position: relative;
+    display: table-cell;
+    border-bottom: 1px dotted black;
+    font-size:18px;
+	color:red;
+	z-index: 100;
+}
+
+.tooltip >.tooltiptext {
+    visibility: hidden;
+    width: 350px;
+    background-color: #440522;
+    color: #ffffcc;
+    font-size: 13px;
+    text-align: center;
+    border-radius: 6px;
+    padding: 6px 6px;
+    position: absolute;
+    z-index: 10;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip >.tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color:  #440522 transparent ;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
